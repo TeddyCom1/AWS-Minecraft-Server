@@ -9,3 +9,4 @@ To install Terraform follow the steps in this link: https://developer.hashicorp.
 # Infrastructure Diagram
 
 ![alt text](./Images/AWS%20Minecraft%20Server%20(infrastructure).jpg)
+
