@@ -1,6 +1,6 @@
 resource "aws_security_group" "minecraft-sg" {
   name   = "minecraft-sg"
-  vpc_id = aws_vpc.vpc-minecraft.id
+  vpc_id = aws_vpc.minecraft-vpc.id
 
   dynamic "ingress" {
     for_each = local.workspace.security_groups.minecraft-sg.ingress
