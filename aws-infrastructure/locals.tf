@@ -7,6 +7,10 @@ locals {
         subnet-cidr_block   = "192.168.69.0/24"
         private_ip          = "192.168.69.12"
         instance_type       = "t3.micro"
+        minecraft-sg = {
+            ingress = [25565]
+            egress  = [25565]
+        }
     }
   }
 }
