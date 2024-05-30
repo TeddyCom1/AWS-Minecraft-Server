@@ -8,3 +8,18 @@ terraform {
     }
   }
 }
+
+module "mineraft-vpc" {
+    source = "terraform-aws-modules/vpc/aws"
+
+    name = "minecraft-vpc"
+    cidr = "192.168.0.0/16"
+
+    azs = ["ap-southeast-2a"]
+    public_subnets = ["192.168.1.0/24"]
+
+    tags = {
+        Terraform = "true"
+        Environemnt = "Prod"
+    }
+}
