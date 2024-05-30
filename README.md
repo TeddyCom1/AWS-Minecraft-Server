@@ -4,6 +4,7 @@ A Simple Minecraft Server Hosted on AWS using the latest amazon AMI
 This cloud application is built on Hashcorps Terraform, and open source infrastructure as code tool used to spin up and spin down infrastructure from cloud platforms such as AWS, Azure and GCP.
 
 To install Terraform follow the steps in this link: https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
+
 to install AWS CLI follow the steps in this link: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
 # How to Run
